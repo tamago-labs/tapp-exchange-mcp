@@ -1,0 +1,58 @@
+{
+    "name": "@tamago-labs/tapp-exchange-mcp",
+    "version": "0.1.0",
+    "description": "MCP server implementation for Tapp Exchange on Aptos blockchain",
+    "main": "dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "bin": {
+        "tapp-exchange-mcp": "dist/index.js"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup",
+        "prepare": "npm run build",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tamago-labs/tapp-exchange-mcp.git"
+    },
+    "keywords": [
+        "tapp-exchange",
+        "aptos",
+        "blockchain",
+        "ai-agent",
+        "mcp",
+        "model-context-protocol",
+        "claude",
+        "web3",
+        "dex",
+        "defi"
+    ],
+    "author": "Pisuth",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tamago-labs/tapp-exchange-mcp/issues"
+    },
+    "homepage": "https://tamagolabs.com",
+    "devDependencies": {
+        "@types/jest": "^29.5.14",
+        "@types/node": "^22.15.2", 
+        "jest": "^29.7.0",
+        "ts-jest": "^29.3.2",
+        "ts-node": "^10.9.2",
+        "tsup": "^8.4.0",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "dotenv": "^16.5.0",
+        "@aptos-labs/ts-sdk": "^1.33.1",
+        "@modelcontextprotocol/sdk": "^1.10.2",
+        "@tapp-exchange/sdk": "^0.6.1",
+        "axios": "^1.9.0",
+        "zod": "^3.24.3"
+    }
+}

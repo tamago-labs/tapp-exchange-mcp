@@ -2,6 +2,10 @@
 
 An MCP (Model Context Protocol) server implementation for [Tapp Exchange](https://tapp-exchange.gitbook.io/tapp-exchange), a next-generation decentralized exchange built on Aptos blockchain.
 
+<a href="https://glama.ai/mcp/servers/@tamago-labs/tapp-exchange-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@tamago-labs/tapp-exchange-mcp/badge" alt="Tapp Exchange Server MCP server" />
+</a>
+
 ## Overview
 
 Tapp Exchange is a decentralized trading platform that brings together innovations from leading DEX protocols. Built on concepts from Uniswap v4, Tapp offers a powerful hooks system and advanced singleton vault design for unmatched capital efficiency.
